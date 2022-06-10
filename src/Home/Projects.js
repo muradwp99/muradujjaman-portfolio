@@ -28,7 +28,7 @@ const Projects = () => {
                     <figure><img className='h-[400px] object-cover px-4 pt-4' src={pcuniverse} alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">
-                            PC Universe
+                            PC Univers
 
                         </h2>
                         <p>Users or Customers Can view Products or inventory with accurate details. Also, a blog page was added for every user...</p> <br />
