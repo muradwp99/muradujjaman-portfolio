@@ -10,10 +10,10 @@ const PopularService = () => {
             background: "rgb(52,49,30)",
             background: "linear-gradient(90deg, rgba(52,49,30,1) 0%, rgba(34,33,33,1) 100%)"
         }} className='pt-24 pb-24'>
-            <h2 className='text-5xl font-bold text-center font-bold text-white'>Popular Services</h2>
-            <p className='text-white text-center w-[40%] mx-auto mb-16 mt-8'>Must explain to you how all this mistaken idea of denouncing pleasure born and give you a complete account the system</p>
+            <h2 className='lg:text-5xl text-3xl font-bold text-center font-bold text-white'>Popular Services</h2>
+            <p className='text-white text-center lg:w-[40%] w-96 mx-auto lg:mb-16 lg:mt-8 my-4'>Must explain to you how all this mistaken idea of denouncing pleasure born and give you a complete account the system</p>
 
-            <div className='grid grid-cols-3 gap-5 w-[85%] mx-auto '>
+            <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 w-[85%] mx-auto '>
                 <div class="card w-96 bg-base-100 shadow-xl bg-[#24242389]">
                     <figure class="px-8 py-8 mt-7 rounded-full text-warning text-5xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
                         <FaWordpressSimple></FaWordpressSimple>
