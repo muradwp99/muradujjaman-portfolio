@@ -1,11 +1,22 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Blog from './Blog';
+
 import Home from './Home/Home';
-import Header from './Shared/Header';
+
 
 function App() {
   return (
     <div>
-      <Home></Home>
+      <Routes>
+        <Route path="/" element={<Home></Home>}>
+        </Route>
+        <Route path='/blog' element={<Blog></Blog>}></Route>
+
+
+
+      </Routes>
+
     </div>
   );
 }
