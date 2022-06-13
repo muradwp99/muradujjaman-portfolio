@@ -277,10 +277,6 @@ const Home = () => {
                             <h2 className='text-white text-3xl lg:text-5xl font-bold'>Recent Projects</h2>
                             <p className='text-white w-80'>Some Exposure of my Recent works as WordPress and React Developer is given below. </p>
                         </div>
-
-                        <div className='w-[15%] ml-auto text-warning text-6xl bg-[#3f3f3f] py-4 px-4 rounded-full'>
-                            <GiFlyingTrout></GiFlyingTrout>
-                        </div>
                     </div>
                     <div className='w-[85%] mx-auto mt-10 grid grid-cols-1 gap-5 lg:grid-cols-3'>
                         <div class="card w-96 bg-[#5c4201] text-white shadow-xl">
