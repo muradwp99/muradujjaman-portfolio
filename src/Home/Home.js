@@ -185,7 +185,7 @@ const Home = () => {
 
                     <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 w-[85%] mx-auto '>
                         <div class="card lg:w-96 bg-base-100 shadow-xl bg-[#24242389]">
-                            <figure class="lg:px-8 px-0 py-8 mt-7 rounded-full text-warning text-5xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
+                            <figure class="px-8 py-8 mt-7 rounded-full text-warning lg:text-5xl text-4xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
                                 <FaWordpressSimple></FaWordpressSimple>
                             </figure>
                             <div class="card-body items-center text-center">
@@ -198,7 +198,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div class="card lg:w-96 bg-base-100 shadow-xl bg-[#24242389]">
-                            <figure class="lg:px-8 px-0 py-8 mt-7 rounded-full text-warning text-5xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
+                            <figure class="px-8 py-8 mt-7 rounded-full text-warning lg:text-5xl text-4xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
                                 <CgWebsite></CgWebsite>
                             </figure>
                             <div class="card-body items-center text-center">
@@ -211,7 +211,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div class="card lg:w-96 bg-base-100 shadow-xl bg-[#24242389]">
-                            <div class="lg:px-8 px-0 py-8 mt-7 rounded-full text-warning text-5xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
+                            <div class="px-8 py-8 mt-7 rounded-full text-warning lg:text-5xl text-4xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
                                 <FaReact></FaReact>
                             </div>
                             <div class="card-body items-center text-center">
@@ -232,7 +232,7 @@ const Home = () => {
                     background: "linear-gradient(59deg, rgba(25,25,25,1) 26%, rgba(36,4,4,1) 49%, rgba(17,17,17,1) 86%)"
                 }} className='pb-24'>
                     <h2 className='lg:text-5xl text-3xl text-white font-bold text-center pt-24 pb-4'>Work Experience</h2>
-                    <p className='text-center lg:w-96 lg:w-[50%] text-white mx-auto pb-6'>I'm New To React Development but I have worked as a senior WordPress developer in some minor company and also as freelancer in some popular marketplace</p>
+                    <p className='text-center lg:w-96 w-[70%] text-white mx-auto pb-6'>I'm New To React Development but I have worked as a senior WordPress developer in some minor company and also as freelancer in some popular marketplace</p>
 
                     <div className='grid grid-cols-2 lg:grid-cols-4 text-white items-center w-[85%] mx-auto mb-8 px-8 py-5 rounded-xl bg-[#333333]'>
                         <div>
@@ -292,7 +292,7 @@ const Home = () => {
                                     <a href="" className='font-bold border-2 py-2 px-2 rounded-full hover:bg-warning hover:border-warning  hover:duration-300'>See More</a>
                                 </div>
                                 <br />
-                                <div class="card-actions justify-end  mt-10">
+                                <div class="card-actions lg:justify-end justify-center mt-10">
                                     <a href='https://perlic-tools.web.app/' class="badge bg-white text-black border-white">Live Link</a>
                                     <a href='https://github.com/muradwp99/pc-universe' class="badge bg-white text-black border-white">Github Link</a>
                                     <a href='https://github.com/muradwp99/pc-universe-server' class="badge bg-white text-black border-white">Server Github</a>
@@ -311,7 +311,7 @@ const Home = () => {
                                     <p className='mb-5'>Social login like Google, Facebook, Instagram, and email-password login allowed every user with proper verification...</p>
                                     <a href="" className='font-bold border-2 py-2 px-2 rounded-full hover:bg-warning hover:border-warning  hover:duration-300'>See More</a>
                                 </div>
-                                <div class="card-actions justify-end  mt-10">
+                                <div class="card-actions lg:justify-end justify-center  mt-10">
                                     <a href='https://motoflix-69da7.web.app/' class="badge bg-white text-black border-white">Live Link</a>
                                     <a href='https://github.com/muradwp99/Motoflix-client-side' class="badge bg-white text-black border-white">Github Link</a>
                                     <a href='https://github.com/muradwp99/Motoflix-server-side' class="badge bg-white text-black border-white">Server Link</a>
@@ -330,7 +330,7 @@ const Home = () => {
                                     <p className='mb-5'>People Can view the inventory of products and register users can update Quantity and more details...</p>
                                     <a href="" className='font-bold border-2 py-2 px-2 rounded-full hover:bg-warning hover:border-warning  hover:duration-300'>See More</a>
                                 </div>
-                                <div class="card-actions justify-end mt-10">
+                                <div class="card-actions lg:justify-end justify-center mt-10">
                                     <a href='https://career-way.web.app/' class="badge bg-white text-black border-white">Live Link</a>
                                     <a href='https://github.com/muradwp99/career-path-way' class="badge bg-white text-black border-white">Github Link</a>
 
@@ -357,9 +357,9 @@ const Home = () => {
                             <input type="phone" name='phone' placeholder="Phone Number" class="bg-transparent w-full max-w-sm h-[50%] border-0 border-b border-solid border-[#464646] py-6 focus:outline-none text-white" />
                             <input type="text" name='service' placeholder="Service" class="bg-transparent w-full max-w-sm h-[50%] border-0 border-b border-solid border-[#464646] py-6 focus:outline-none text-white" />
                             <textarea class="bg-transparent w-full max-w-sm h-32 border-0 border-b border-solid border-[#464646] py-6 focus:outline-none text-white" name='message' placeholder="Enter your message"></textarea>
-                            <input type="submit" value="Send Message" class="btn btn-primary text-white mt-4 w-44 ml-28 mr-auto" />
+                            <input type="submit" value="Send Message" class="btn btn-primary text-white mt-4 w-44 lg:ml-28 lg:mr-auto" />
                         </form>
-                        <div className='mr-auto ml-6'>
+                        <div className='lg:mr-auto lg:ml-6'>
 
                             <div className='bg-[#222121] py-8 px-4 rounded-lg mx-auto'>
                                 <h2 className='text-white text-2xl font-semibold'>Uttara, Dhaka, Bangladesh</h2>
@@ -422,7 +422,7 @@ const Home = () => {
 
                     <div>
                         <span class="footer-title text-white">Newsletter</span>
-                        <div class="form-control w-80">
+                        <div class="form-control lg:w-80">
                             <label class="label">
                                 <span class="label-text text-white">Enter your email address</span>
                             </label>
