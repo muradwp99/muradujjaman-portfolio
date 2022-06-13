@@ -80,7 +80,7 @@ const Home = () => {
 
                             </ul>
                         </div>
-                        <div class="navbar-end">
+                        <div class="navbar-end md:ml-20">
                             <a class="btn btn-primary hidden lg:flex text-white" href={resume}><span className='mr-2'>Download Resume</span> <BsFillArrowDownSquareFill></BsFillArrowDownSquareFill></a>
                             <a class="btn btn-primary btn-sm lg:hidden text-white" href={resume}><span className='mr-2'>Resume</span> <BsFillArrowDownSquareFill></BsFillArrowDownSquareFill></a>
                         </div>
@@ -113,7 +113,7 @@ const Home = () => {
                             <div style={{
                                 background: "#2e2c1f",
                                 background: "linear-gradient(180deg,#2e2c1f,#1b1b19)"
-                            }} className='text-white px-16 py-28 lg:w-[60%] rounded-lg'>
+                            }} className='text-white xl:px-16 lg:px-8 lg:ml-8 py-28 lg:w-[60%] rounded-lg'>
 
                                 <div>
                                     <h2 className='text-7xl font-bold text-secondary'>MERN</h2>
@@ -132,7 +132,7 @@ const Home = () => {
                             <div>
                                 <h1 class="lg:text-5xl text-4xl text-white font-bold">My Advantage</h1>
                                 <p class="py-6 text-white">Some Skills I'm still polishing by working through and some skills I have mastered.</p>
-                                <div className="skill-section grid grid-cols-2 lg:grid-cols-3">
+                                <div className="skill-section grid grid-cols-2 lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-3">
                                     <div className='skills1'>
                                         <div className='skill'>
                                             <h2 className='text-white text-3xl font-bold font-sans'>90%</h2>
@@ -183,7 +183,7 @@ const Home = () => {
                     <h2 className='lg:text-5xl text-3xl font-bold text-center font-bold text-white'>Popular Services</h2>
                     <p className='text-white text-center lg:w-[40%] lg:w-96 mx-auto lg:mb-16 lg:mt-8 my-4'>Must explain to you how all this mistaken idea of denouncing pleasure born and give you a complete account the system</p>
 
-                    <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 w-[85%] mx-auto '>
+                    <div className='grid lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 grid-cols-1 gap-5 w-[85%] mx-auto '>
                         <div class="card lg:w-96 bg-base-100 shadow-xl bg-[#24242389]">
                             <figure class="px-8 py-8 mt-7 rounded-full text-warning lg:text-5xl text-4xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
                                 <FaWordpressSimple></FaWordpressSimple>
@@ -234,7 +234,7 @@ const Home = () => {
                     <h2 className='lg:text-5xl text-3xl text-white font-bold text-center pt-24 pb-4'>Work Experience</h2>
                     <p className='text-center lg:w-96 w-[70%] text-white mx-auto pb-6'>I'm New To React Development but I have worked as a senior WordPress developer in some minor company and also as freelancer in some popular marketplace</p>
 
-                    <div className='grid grid-cols-2 lg:grid-cols-4 text-white items-center w-[85%] mx-auto mb-8 px-8 py-5 rounded-xl bg-[#333333]'>
+                    <div className='grid grid-cols-2 lg:grid-cols-2  md:grid-cols-2 xl:grid-cols-4 text-white items-center w-[85%] mx-auto mb-8 px-8 py-5 rounded-xl bg-[#333333]'>
                         <div>
                             <h2 className='lg:text-3xl text-2xl font-semibold'><span className='text-lg'>May</span> 2020 - Present</h2>
                         </div>
@@ -243,13 +243,13 @@ const Home = () => {
                         </div>
                         <div className='lg:ml-[-50px] lg:mt-0 mt-5'>
                             <h2 className='lg:text-3xl text-xl font-bold'>WordPress Developer</h2>
-                            <p className='text-error'>Fiverr Co.</p>
+                            <p className='text-error'>Fiverr Freelancer</p>
                         </div>
                         <div>
                             <a href="https://www.fiverr.com/muradwp99" className='float-right flex items-center gap-3'><BsArrowRight></BsArrowRight> Go to website</a>
                         </div>
                     </div>
-                    <div className='grid grid-cols-2 lg:grid-cols-4 text-white items-center w-[85%] mx-auto px-8 py-5 rounded-xl bg-[#333333]'>
+                    <div className='grid grid-cols-2  md:grid-cols-2 xl:grid-cols-4 lg:grid-cols-2 text-white items-center w-[85%] mx-auto px-8 py-5 rounded-xl bg-[#333333]'>
                         <div>
                             <h2 className='lg:text-3xl text-2xl font-semibold'><span className='text-lg'>April</span> 2021 - <span className='text-lg'>August</span> 2021</h2>
                         </div>
@@ -279,7 +279,7 @@ const Home = () => {
                             <p className='text-white w-80'>Some Exposure of my Recent works as WordPress and React Developer is given below. </p>
                         </div>
                     </div>
-                    <div className='w-[85%] mx-auto mt-10 grid grid-cols-1 gap-5 lg:grid-cols-3'>
+                    <div className='w-[85%] mx-auto mt-10 grid grid-cols-1 gap-5 lg:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 '>
                         <div class="card lg:w-96 bg-[#5c4201] text-white shadow-xl">
                             <figure><img className=' hover:scale-110 hover:duration-300 ease-out h-[400px] object-cover px-4 pt-4' src={pcuniverse} alt="Shoes" /></figure>
                             <div class="card-body">
@@ -397,7 +397,7 @@ const Home = () => {
 
                 background: "linear-gradient(59deg, rgba(22,16,15,1) 18%, rgba(5,38,2,1) 86%)"
             }} class="">
-                <div className='p-10 w-[85%] text-base-content mx-auto grid lg:grid-cols-4 grid-cols-1'>
+                <div className='p-10 w-[85%] text-base-content mx-auto grid lg:grid-cols-2  md:grid-cols-2 xl:grid-cols-4 grid-cols-1'>
                     <div className=''>
                         <div className='grid grid-cols-2 items-center justify-items-start'>
                             <img className='w-20' src={logo} alt="" />
@@ -422,7 +422,7 @@ const Home = () => {
 
                     <div>
                         <span class="footer-title text-white">Newsletter</span>
-                        <div class="form-control lg:w-80">
+                        <div class="form-control lg:w-80 md:w-full xl:w-full">
                             <label class="label">
                                 <span class="label-text text-white">Enter your email address</span>
                             </label>
