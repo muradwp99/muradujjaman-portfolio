@@ -81,7 +81,8 @@ const Home = () => {
                             </ul>
                         </div>
                         <div class="navbar-end">
-                            <a class="btn btn-primary text-white" href={resume}><span className='mr-2'>Download Resume</span> <BsFillArrowDownSquareFill></BsFillArrowDownSquareFill></a>
+                            <a class="btn btn-primary hidden lg:flex text-white" href={resume}><span className='mr-2'>Download Resume</span> <BsFillArrowDownSquareFill></BsFillArrowDownSquareFill></a>
+                            <a class="btn btn-primary btn-sm lg:hidden text-white" href={resume}><span className='mr-2'>Resume</span> <BsFillArrowDownSquareFill></BsFillArrowDownSquareFill></a>
                         </div>
                     </div>
                 </div>
