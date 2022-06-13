@@ -181,10 +181,10 @@ const Home = () => {
                     background: "linear-gradient(90deg, rgba(52,49,30,1) 0%, rgba(34,33,33,1) 100%)"
                 }} className='pt-24 pb-24'>
                     <h2 className='lg:text-5xl text-3xl font-bold text-center font-bold text-white'>Popular Services</h2>
-                    <p className='text-white text-center lg:w-[40%] w-96 mx-auto lg:mb-16 lg:mt-8 my-4'>Must explain to you how all this mistaken idea of denouncing pleasure born and give you a complete account the system</p>
+                    <p className='text-white text-center lg:w-[40%] lg:w-96 mx-auto lg:mb-16 lg:mt-8 my-4'>Must explain to you how all this mistaken idea of denouncing pleasure born and give you a complete account the system</p>
 
                     <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 w-[85%] mx-auto '>
-                        <div class="card w-96 bg-base-100 shadow-xl bg-[#24242389]">
+                        <div class="card lg:w-96 bg-base-100 shadow-xl bg-[#24242389]">
                             <figure class="lg:px-8 px-0 py-8 mt-7 rounded-full text-warning text-5xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
                                 <FaWordpressSimple></FaWordpressSimple>
                             </figure>
@@ -197,7 +197,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="card w-96 bg-base-100 shadow-xl bg-[#24242389]">
+                        <div class="card lg:w-96 bg-base-100 shadow-xl bg-[#24242389]">
                             <figure class="lg:px-8 px-0 py-8 mt-7 rounded-full text-warning text-5xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
                                 <CgWebsite></CgWebsite>
                             </figure>
@@ -210,7 +210,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="card w-96 bg-base-100 shadow-xl bg-[#24242389]">
+                        <div class="card lg:w-96 bg-base-100 shadow-xl bg-[#24242389]">
                             <div class="lg:px-8 px-0 py-8 mt-7 rounded-full text-warning text-5xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
                                 <FaReact></FaReact>
                             </div>
@@ -232,7 +232,7 @@ const Home = () => {
                     background: "linear-gradient(59deg, rgba(25,25,25,1) 26%, rgba(36,4,4,1) 49%, rgba(17,17,17,1) 86%)"
                 }} className='pb-24'>
                     <h2 className='lg:text-5xl text-3xl text-white font-bold text-center pt-24 pb-4'>Work Experience</h2>
-                    <p className='text-center w-96 lg:w-[50%] text-white mx-auto pb-6'>I'm New To React Development but I have worked as a senior WordPress developer in some minor company and also as freelancer in some popular marketplace</p>
+                    <p className='text-center lg:w-96 lg:w-[50%] text-white mx-auto pb-6'>I'm New To React Development but I have worked as a senior WordPress developer in some minor company and also as freelancer in some popular marketplace</p>
 
                     <div className='grid grid-cols-2 lg:grid-cols-4 text-white items-center w-[85%] mx-auto mb-8 px-8 py-5 rounded-xl bg-[#333333]'>
                         <div>
@@ -280,7 +280,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='w-[85%] mx-auto mt-10 grid grid-cols-1 gap-5 lg:grid-cols-3'>
-                        <div class="card w-96 bg-[#5c4201] text-white shadow-xl">
+                        <div class="card lg:w-96 bg-[#5c4201] text-white shadow-xl">
                             <figure><img className=' hover:scale-110 hover:duration-300 ease-out h-[400px] object-cover px-4 pt-4' src={pcuniverse} alt="Shoes" /></figure>
                             <div class="card-body">
                                 <h2 class="card-title">
@@ -299,7 +299,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="card w-96 bg-[#5c4201] text-white shadow-xl">
+                        <div class="card lg:w-96 bg-[#5c4201] text-white shadow-xl">
                             <figure><img className='hover:scale-110 hover:duration-300 ease-out h-[400px] object-cover px-4 pt-4' src={motoflix} alt="Shoes" /></figure>
                             <div class="card-body">
                                 <h2 class="card-title">
@@ -318,7 +318,7 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="card w-96 bg-[#5c4201] text-white shadow-xl">
+                        <div class="card lg:w-96 bg-[#5c4201] text-white shadow-xl">
                             <figure><img className='hover:scale-110 hover:duration-300 ease-out h-[400px] object-cover px-4' src={career} alt="Shoes" /></figure>
                             <div class="card-body">
                                 <h2 class="card-title">
