@@ -185,7 +185,7 @@ const Home = () => {
 
                     <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 w-[85%] mx-auto '>
                         <div class="card w-96 bg-base-100 shadow-xl bg-[#24242389]">
-                            <figure class="px-8 py-8 mt-7 rounded-full text-warning text-5xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
+                            <figure class="lg:px-8 px-0 py-8 mt-7 rounded-full text-warning text-5xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
                                 <FaWordpressSimple></FaWordpressSimple>
                             </figure>
                             <div class="card-body items-center text-center">
@@ -198,7 +198,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div class="card w-96 bg-base-100 shadow-xl bg-[#24242389]">
-                            <figure class="px-8 py-8 mt-7 rounded-full text-warning text-5xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
+                            <figure class="lg:px-8 px-0 py-8 mt-7 rounded-full text-warning text-5xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
                                 <CgWebsite></CgWebsite>
                             </figure>
                             <div class="card-body items-center text-center">
@@ -211,7 +211,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div class="card w-96 bg-base-100 shadow-xl bg-[#24242389]">
-                            <div class="px-8 py-8 mt-7 rounded-full text-warning text-5xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
+                            <div class="lg:px-8 px-0 py-8 mt-7 rounded-full text-warning text-5xl hover:bg-warning hover:duration-300 hover:text-white bg-stone-700 my-auto mx-auto">
                                 <FaReact></FaReact>
                             </div>
                             <div class="card-body items-center text-center">
@@ -272,7 +272,7 @@ const Home = () => {
                     background: "rgb(52,49,30)",
                     background: "linear-gradient(90deg, rgba(52,49,30,1) 0%, rgba(34,33,33,1) 100%)"
                 }} className='pt-24 pb-24'>
-                    <div className=' w-[85%] mx-auto grid grid-cols-2 justify-between items-center'>
+                    <div className=' lg:w-[85%] mx-auto grid grid-cols-2 justify-between items-center'>
 
                         <div>
                             <h2 className='text-white text-3xl lg:text-5xl font-bold'>Recent Projects</h2>
